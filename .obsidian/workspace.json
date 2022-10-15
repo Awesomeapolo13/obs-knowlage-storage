@@ -23,8 +23,12 @@
             "id": "92e7972905c2130d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "English/Conditionals/Second-condition.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "English/Conditionals/Second-condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "English/Conditionals/Second-condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "English/Conditionals/Second-condition.md"
+              }
             }
           }
         ]
@@ -146,10 +154,10 @@
   },
   "active": "92e7972905c2130d",
   "lastOpenFiles": [
+    "English/Conditionals/If_then_rules.jpg",
     "English/Conditionals/Conditionals.md",
     "English/Conditionals/First-condition.md",
     "English/Conditionals/unreal_types.jpg",
-    "English/Conditionals/If_then_rules.jpg",
     "English/Passive-voice/1484335963412355041ce7.33204078thepassivevoice370x297.jpg",
     "English/Conditionals/Mixed-condition.md",
     "English/Passive-voice/Passive-voice.md",
