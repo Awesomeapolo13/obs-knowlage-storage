@@ -12,7 +12,7 @@ But it will be less dangerous if I take the long road.
 
 If-part - Условие | Main-part Главная часть
 ---------------|-------------
-If + subject + Present Tense | subject + Future Simple
+If + subject + Present Tense (Simple/Continious/Perfect) | subject + Future Simple
 
 *Примеры:*
 
@@ -27,7 +27,7 @@ If Mark eats more healthy food, he will lose some weight.
 
 * Используйте его, чтобы говорить о возможных ситуациях в будущем:
 
-IIf I get this job, I will be very happy. 
+If I get this job, I will be very happy. 
 Если я получу эту работу, я буду очень счастлив.
 
 If it rains tomorrow, Jack will take a taxi to work.
@@ -36,7 +36,7 @@ If it rains tomorrow, Jack will take a taxi to work.
 I will be very angry if Steven doesn’t call me.
 Я буду очень зол, если Стивен мне не позвонит.
 
-* If or When?
+* If or When or Unless or In case?
 
 If I go shopping, I will buy you a new pen. (I’m not sure I’ll go shopping) = Condition
 Если я пойду по магазинам, я куплю тебе новую ручку. (не уверен, что пойду за покупками) = Состояние.
