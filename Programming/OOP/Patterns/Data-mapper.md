@@ -1,0 +1,3 @@
+
+
+**Хештеги:** #Programming/OOP/Patterns
