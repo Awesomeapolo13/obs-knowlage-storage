@@ -5,7 +5,7 @@
 
 **Подходы:**
 - Многослойная архитетура ([Onion Architecture](Onion-architecture));
-- Модульный монолит ([Monolith first](Monolith-first))
+- Модульный монолит ([Monolith first](Monolith-first.md))
 
 
 **Хештеги:** #Programming/Arch

@@ -2,6 +2,7 @@
 
 **Ключи:**
 - [Типы маппинга](Mapping-types);
+- [Консольные команды](Doctrine-console);
 
 **Хештеги:** #Programming/ORM/Doctrine
 
