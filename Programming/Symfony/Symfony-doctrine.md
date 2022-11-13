@@ -92,3 +92,9 @@ POSTGRES_PASSWORD=apps
 DATABASE_URL="postgresql://apps:apps@clothing-db:5432/clothing-db?serverVersion=15&charset=utf8"
 ```
 
+
+**Ключи:**
+- [Symfony framework](Symfony-framework);
+- [Doctrine ORM](Doctrine-ORM);
+
+**Хештеги:** #Programming/Symfony/Doctrine

@@ -3,6 +3,7 @@
 
 **Ключи:** 
 * [Алгоритмы](Algorithms);
+* [Авторизация](Authorization);
 * [GIt](Git);
 * [Symfony](Symfony-framework);
 * [PHP](PHP);

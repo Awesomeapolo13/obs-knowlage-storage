@@ -16,3 +16,6 @@ composer require --dev phpunit/phpunit symfony/test-pack
 2) Заходим в раздел *PHP->Test Framework*s
 3) Нажать + и добавить тип конфигурации *PHPUnit by Remote Interpreter*
 4) Выюрать контейнер с удаленным интерпретатором
+
+
+**Хештеги:** #Programming/Symfony/Test
