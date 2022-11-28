@@ -13,7 +13,7 @@
 	- claim (утверждать, требовать)
 	- come
 	- dare (осмеливаться)
-	- demand
+	- demand (требовать)
 	- deserve (заслуживать)
 	- expect
 	- fail

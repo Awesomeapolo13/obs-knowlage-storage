@@ -15,3 +15,4 @@
 ## Более менее изучено
 
 - [Docker](Docker);
+- [Linux](Linux);

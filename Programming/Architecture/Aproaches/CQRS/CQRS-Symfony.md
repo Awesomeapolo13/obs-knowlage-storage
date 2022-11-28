@@ -288,3 +288,5 @@ class FindUserByEmailQueryHandlerTest extends WebTestCase
 }
 ```
 
+
+**Хештеги:** #Programming/Arch/CQRS
