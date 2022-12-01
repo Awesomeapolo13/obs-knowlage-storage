@@ -157,4 +157,9 @@ I have difficulty reading my doctor's prescription. - Мне трудно чит
 
 5) "a waste of time" может быть вставлено следом за обоими (инфинитивом или герундием). Использование инфинитива наиболее обычно для AmE (American English).
 
+**Ключи:**
+- [ENGLISH](ENGLISH);
+- [Infinitive](Infinitive);
+* [Gerund](Gerund);
+
 **Хештеги:** #English/InfinitiveVsGerund
