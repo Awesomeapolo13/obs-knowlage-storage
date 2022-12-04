@@ -37,4 +37,4 @@ Neither |  am / is / are <br> was / were <br> do / does / did <br> can / could <
 - [ENGLISH](ENGLISH);
 
 **Хештеги:**
-- #English/Verbs/Gerund
+- #English/Verbs

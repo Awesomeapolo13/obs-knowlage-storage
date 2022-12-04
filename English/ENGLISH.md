@@ -13,5 +13,10 @@
 * [Infinitive](Infinitive);
 * [Gerund](Gerund);
 * [So, neither and auxiliary](So-neither-auxiliary);
+* [Phrasal verbs](Phrasal-verbs);
+* [Expressing movements](Expressing-movements);
+* [Action and non-action verbs](Action-non-action);
+* [May or Might or Infinitive](May-might-infinitive);
+* [Articles](Articles);
 
 Хештеги: #English
