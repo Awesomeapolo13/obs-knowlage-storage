@@ -38,7 +38,7 @@ Past | V2/ed | was/were + Ving | had + V3/ed | had been + Ving
 	- I **_realised_** I had left the key at home. - Я понял, что забыл ключ дома.
 	- I **_thought_** our neighbours had raised the alarm. - Я думал, наши соседи подняли тревогу.
 
-5) Use **Past Perfect Continuous** **(_had been + Ving_)** to describe processes which took place before another past action. **For/Since** can be the time markers for this tense. (Используйте Past Perfect Continuous (had was + Ving), чтобы описать процессы, которые происходили до другого действия в прошлом. For/Since могут быть маркерами времени для этого времени.)
+5) Use **Past Perfect Continuous** **(_had been + Ving_)** to describe processes which took place before another past action. **For/Since** can be the time markers for this tense. (Используйте Past Perfect Continuous (had been + Ving), чтобы описать процессы, которые происходили до другого действия в прошлом. For/Since могут быть маркерами времени для этого времени.)
 	- I **_had been working_** for 9-10 hours that day, so I was exhausted. - В тот день я работал по 9-10 часов, так что я был измотан.;
 	- He mentioned that he **_had been learning_** Chinese since October. - Он упомянул, что изучает китайский язык с октября.;
 	- Yen bought a new phone because his old one **_hadn't been working_** properly. - Йен купил новый телефон, потому что его старый не работал должным образом.

@@ -34,27 +34,26 @@ providers:
 
 ```yaml
 firewalls:  
-    login:  
-        pattern: ^/api/auth/token/login  
+    api:  
+        pattern: ^/api  
         stateless: true  
+        entry_point: jwt  
         json_login:  
             username_path: email  
             check_path: /api/auth/token/login  
             success_handler: lexik_jwt_authentication.handler.authentication_success  
             failure_handler: lexik_jwt_authentication.handler.authentication_failure  
-  
-    api:  
-        pattern: ^/api  
-        stateless: true  
         jwt: ~  
+        refresh_jwt:  
+            check_path: /api/auth/token/refresh  
   
-    access_control:  
-        # Для логина  
-        - { path: ^/api/auth/token/login, roles: PUBLIC_ACCESS }  
-        # Для обновления токена  
-        - { path: ^/api/auth/token/refresh, roles: PUBLIC_ACCESS }  
-        # Для получения информации о пользователе  
-        - { path: ^/api/users/me,       roles: IS_AUTHENTICATED_FULLY }
+access_control:  
+    # Для логина  
+    - { path: ^/api/auth/token/login, roles: PUBLIC_ACCESS }  
+    # Для обновления токена  
+    - { path: ^/api/auth/token/refresh, roles: PUBLIC_ACCESS }  
+    # Для получения информации о пользователе  
+    - { path: ^/api/users/me,       roles: IS_AUTHENTICATED_FULLY }
 ```
 
 Для тестового окружения применим упрощенную стратегию формирования токена, а именно plaintext - текст без шибрования
@@ -430,6 +429,90 @@ class UserFactory
 }
 ```
 
+Создание пользователя необходимо производить только через фабрику.
+
+7) Составим тест, который авторизует пользователя, вернет access и refresh токены, и выполнил повторный запрос для получения информации о пользователе (это функциональный тест).
+По факту это тестирование эндпоинта получения информации о пользователе, который был авторизован посредством JWT токена.
+
+8) Создадим реализацию эндпоинта получения информации об авторизованном пользователе
+	- Создадим контроллер GetMeAction (с одним методом)
+
+```php
+<?php  
+  
+declare(strict_types=1);  
+  
+namespace App\Users\Infrastructure\Controller;  
+  
+use App\Shared\Domain\Security\UserFetcherInterface;  
+use Symfony\Component\HttpFoundation\JsonResponse;  
+use Symfony\Component\Routing\Annotation\Route;  
+  
+#[Route('/api/users/me', methods: ['GET'])]  
+class GetMeAction  
+{  
+    public function __construct(  
+        private readonly UserFetcherInterface $userFetcher  
+    ) {  
+    }  
+  
+    /**  
+     * Извлекаем пользователя и возвращаем ответ.    
+     */
+	public function __invoke()  
+    {  
+        $user = $this->userFetcher->getAuthUser();  
+  
+        return new JsonResponse([  
+            'ulid' => $user->getUlid(),  
+            'email' => $user->getEmail(),  
+        ]);  
+    }  
+}
+```
+
+Создадим для этого метода эндпоинт в конфигурации роутов routes.yaml.
+
+```yaml
+users:  
+    resource: /src/Users/Infrastructure/Controller  
+    type: annotation
+```
+
+И в services.yaml
+
+```yaml
+App\Users\Infrastructure\Controller\:  
+    resource: '../src/Users/Infrastructure/Controller/'  
+    tags: ['controller.service_arguments']
+```
+
+
+## Запросы
+
+Запрос на аутентификацию:
+
+```shell
+curl -X POST -H "Content-Type: application/json" http://localhost:888/api/auth/token/login -d '{"email":"email","password":"password"}'
+```
+
+Запрос на получение информации о пользователе:
+
+```shell
+curl -H "Authorization: Bearer access_token" http://localhost:888/api/users/me
+```
+
+Запрос обновления токена;
+
+```shell
+curl -X POST -H "Content-Type: application/json" http://localhost:888/api/auth/token/refresh -d '{"refreshToken":"refresh_token"}'
+```
+
+Команда отзыва рефреш токена
+
+```shell
+php bin/console gesdinet:jwt:revoke TOKEN
+```
 
 
 **Ключи:**
