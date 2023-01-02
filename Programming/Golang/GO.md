@@ -27,6 +27,11 @@ Go – компилируемый язык, при этом компилятор
 - [Ссылки на темы по программированию](PROGRAMMING);
 - [Основные правила написания программы](Go-programm);
 - [Про ошибки](Go-errors);
-- 
+- [Функции в Golang](Go-functions);
+- [Математика и числа в Go](Go-math-numbers.md);
+- [Логический  тип](Go-logic-type.md);
+- [Строки](Go-string);
+- [Условные констуркции](Go-conditions);
+- [Структуры](Go-structures);
 
 **Хештеги:** #Programming/Go
