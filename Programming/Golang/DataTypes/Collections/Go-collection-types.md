@@ -3,7 +3,7 @@
 
 Коллекции в Go представлены 3-мя типами:
 	- [array](Go-array-type);
-	- [slice](Go-slice-type);
+	- [slice](Go-slice-type.md);
 	- [map](Go-map-type).
 
 **Ключи:**
