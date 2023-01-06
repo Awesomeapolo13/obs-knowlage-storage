@@ -43,4 +43,4 @@ fmt.Println(numsCp) // []
 - [Слайсы как тип данных](Go-slice-type);
 - [Сортировка слайсов](Go-slice-sort);
 
-**Хештеги:** #Programming/Go/DataTypes
+**Хештеги:** #Programming/Go/DataTypes/Collection/Slice

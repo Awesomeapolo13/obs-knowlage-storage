@@ -56,4 +56,4 @@ fmt.Println(nums) // [1 2 3 4 5 6]
 - [Слайсы как тип данных](Go-slice-type);
 - [Копирование слайсов](Go-slice-copy);
 
-**Хештеги:** #Programming/Go/DataTypes
+**Хештеги:** #Programming/Go/DataTypes/Collection/Slice

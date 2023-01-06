@@ -73,4 +73,4 @@ fmt.Println(len([10]int{})) // 10
 - [Сведения о языке Go](GO);
 - [Коллекции](Go-collection-types).
 
-**Хештеги:** #Programming/Go/DataTypes
+**Хештеги:** #Programming/Go/DataTypes/Collection

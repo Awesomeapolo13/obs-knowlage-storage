@@ -30,7 +30,7 @@ Go – компилируемый язык, при этом компилятор
 - [Функции в Golang](Go-functions);
 - [Математика и числа в Go](Go-math-numbers.md);
 - [Логический  тип](Go-logic-type.md);
-- [Строки](Go-string);
+- [Строки](Go-string.md);
 - [Условные констуркции](Go-conditions);
 - [Структуры](Go-structures);
 - [Константы](Go-const);

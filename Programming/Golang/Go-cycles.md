@@ -68,7 +68,7 @@ fmt.Println(nums) // [0 2 4 6 8]
 names := []string{"John", "Harold", "Vince"}
 
 // i — это индекс, name — это значение на текущем шаге цикла for i,
-name := range names {
+for i, name := range names {
 	fmt.Println("Hello ", name, " at index ", i)
 }
 ```

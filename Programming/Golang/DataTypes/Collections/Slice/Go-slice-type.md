@@ -65,4 +65,4 @@ func modifySlice(nums []int) {
 - [Копирование слайсов](Go-slice-copy);
 - [Сортировка слайсов](Go-slice-sort);
 
-**Хештеги:** #Programming/Go/DataTypes
+**Хештеги:** #Programming/Go/DataTypes/Collection/Slice

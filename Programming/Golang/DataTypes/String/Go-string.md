@@ -52,5 +52,6 @@ len("го") // 4
 
 **Ключи:**
 - [Сведения о языке Go](GO);
+- [Строки и байты](Go-strings-bytes);
 
-**Хештеги:** #Programming/Go/DataTypes
+**Хештеги:** #Programming/Go/DataTypes/String
