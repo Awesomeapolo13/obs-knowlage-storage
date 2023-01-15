@@ -19,5 +19,7 @@
 * [May or Might or Infinitive](May-might-infinitive);
 * [Articles](Articles);
 * [Narrative tenses](Narrative-tenses);
+* [Future tenses](Future-tenses.md);
+* [Word formation: Suffixes](Suffixes);
 
 Хештеги: #English
