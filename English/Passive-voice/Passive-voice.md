@@ -12,6 +12,13 @@
 
 ![[1484335963412355041ce7.33204078thepassivevoice370x297.jpg]]
 
+- For passive infinitives we use the following form: (to) be + V3:
+	- I don’t want to be fooled again. - Я не хочу быть обманутым снова.
+	- Tables in our restaurant can’t be reserved during weekends. - В выходные дни столики в нашем ресторане не бронируются.
+- For **passive gerunds** we use the following form: **being + V3**:
+	- He likes being treated like a child. - Ему нравится, когда к нему относятся как к ребенку.
+	- The building stopped being used as a cinema. - Здание перестало использоваться как кинотеатр.
+
 ## Usage
 
 1) Мы используем пассивный залог, когда объект важнее, чем то, кто совершает действие.
@@ -34,6 +41,8 @@ How often is your room cleaned? (by you) - Как часто убираю
 The telephone was invented by Alexander Bell.  - Телефон изобрел Александр Белл.
 The renovations have been done by my friend. - Ремонт делал мой друг.
 
- 
+ **Ключи:**
+- [ENGLISH](ENGLISH);
+- [Impersonal Passive Structures](Impersonal-passive);
 
 **Хештеги:** #English/PassiveVoice
