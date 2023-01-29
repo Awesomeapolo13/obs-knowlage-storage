@@ -21,53 +21,6 @@
 	- использовался в Node.js для всего.
 3) ES modules - стандарт для динамического подключения модулей как в браузере так и в Node.
 
-## Common JS
-
-1) Создаем файл test.js пишем функцию и указываем что модуль будет экспортировать
-
-```js
-const users = ['Word1', 'Word2'];
-
-function greet (name) {
-	console.log(`Hello ${name}`);
-}
-
-module.exports = {users, greet};
-```
-
-2) Берем файл из п.1 и подключаем в другой файл app.js
-
-```js
-const {users, greet} = require('./test.js');
-
-for (const user of users) {
-	greet(user);
-}
-```
-
-!! Функция require существует только в node.js, в браузере его нет.
-
-## ES module
-
-1) Создадим файл test2.mjs и сипользуем в нем ключевое слово *export*
-
-```js
-export const users = ['Word1', 'Word2'];
-
-export function greet(name) {
-	console.log(`Привет ${name}`)
-}
-```
-
-2) В файле app.mjs вызовем модуль из п.1 с помощью ключевого слова import
-
-```js
-import { users, greet } from './test2.mjs';
-
-for (const user of users) {
-	greet(user);
-}
-```
 
 ## Различия
 
@@ -98,5 +51,7 @@ ES module вошел в ноду только в 13 версии.
 - [Программирование](PROGRAMMING);
 - [JS](javascript);
 - [Node.js](node-js);
+- [Comon JS modules](comon-js-module);
+- [ES JS modules](es-js-module);
 
-**Хештеги:** #Programming/JS
+**Хештеги:** #Programming/JS/Module

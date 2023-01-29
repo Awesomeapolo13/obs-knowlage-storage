@@ -39,5 +39,6 @@
 - [Node version manager](nvm);
 - [Различия сред выполнения JS](js-env-compare);
 - [REPL режим](repl-mode);
+- [Глобальные переменные](node-global-variables);
 
 **Хештеги:** #Programming/JS/NodeJs
