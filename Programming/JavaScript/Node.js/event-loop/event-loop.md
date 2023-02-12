@@ -78,6 +78,6 @@ console.log('Final');
 - [Node.js](node-js);
 - [Timers](node-timer.md);
 - [Callstack](node-callstack)
-- [Worket threads](node-worker-threads);
+- [Worket threads](node-worker-threads.md);
 
 **Хештеги:** #Programming/JS/NodeJs/EventLoop

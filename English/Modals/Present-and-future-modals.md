@@ -51,6 +51,9 @@
 
 **Ключи:**
 - [ENGLISH](ENGLISH);
+- [May or might or infinitive](May-might-infinitive);
+- [Modal verbs and imperatives](Modal-verbs-and-imperatives);
+- [Past modals of deduction](Past-modals-of-deduction);
 
 **Хештеги:**
 - #English/Modals

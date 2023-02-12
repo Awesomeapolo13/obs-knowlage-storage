@@ -25,7 +25,27 @@ John tells Sarah, "Ally asked me what we **would** study **_the week�
 **Present Simple** ➝ I **am** married. Jake **wants** to swim. | **Past Simple** ➝ She told me (that) she **was** married. I said (that) Jake **wanted** to swim. 
 **Present Continuous** ➝ We **are walking** in the park. | **Past Continuous** ➝ They told me (that) they **were walking** in the park.
 **Past Simple** ➝ We **saw** Sue **_yesterday_**. **Present Perfect** ➝ I **have never been** to France. | **Past Perfect** ➝ They said (that) they **had seen** Sue **_the day before_**. I told him (that) I **had never been** to France.
+**Present Prefect Continous** ➝ We **have been doing** it for 3 hours.  | **Past Perfect Continous** ➝ They told him they **had been doing** it for 3 hours.
+**Past Continous** ➝ It **was raining** yesterday. | **Past Perfect Continous** ➝ He said it **had been raining** the previous day.
 **Will** ➝ I **will** write to you **_tomorrow_**. | **Would** ➝ Mike said (that) he **would** write to me **_the next day_**.
+**Can** ➝ I **can** swim. | **Could** ➝ She told us she **could** swim.
+**May** ➝ You **may** come in. | **Might** ➝ She said I **might** come in.
+**Must** ➝ You **must** study better if you want to have a new toy! | **Had to** ➝ My mum said I **had to** study better if I wanted to have a new toy.
+**Have to** ➝ I **have to** be in the office at 8 tomorrow. | **Had to** ➝ My colleague said he **had to** be in the office at 8 the next day.
+
+**!!!!** Some modal verbs **do not change** in reported speech:
+- might;
+- could;
+- would;
+- should;
+- ough to.
+
+**!!!!** In some cases changing the tanse **is not obligatory**:
+1) if the reporting verb is on the present tense:
+	- I **love** pizza -> She **says** she **loves** pizza.
+2) When talking about **well-known facts**:
+	- Paris **is** the capital of France. -> She **said** that Paris **is** the capital of France.
+
 
 ### Questions
 
@@ -33,6 +53,30 @@ John tells Sarah, "Ally asked me what we **would** study **_the week�
 -----------------|-----------------
 **Can** you swim? **Do** you **like** milk? | She asked me **_if_** I **could** swim. They asked her **_whether_** she **liked** milk.
 Where **is** Mary? Where **were** you **_yesterday_**? | Tom asked where Mary **was**. Lea asked me where I **had been** **_the day before_**.
+
+
+### Time phrases
+
+**Direct** | **Reported**
+-------|----------
+today | that day
+tonight | that night
+yesterday | the day before
+2 days ago | 2 days before
+last week | the week before
+tomorrow | the next day / the following day
+in a week | a week later
+next year | the following year
+
+
+### Other
+
+**Direct** | **Reported**
+-------|----------
+here | there
+this | that
+these | those
+
 
 ## Usage
 
@@ -52,6 +96,8 @@ Where **is** Mary? Where **were** you **_yesterday_**? | Tom asked where�
 
 **Ключи:**
 - [ENGLISH](ENGLISH);
+- [Reported questions](Reported-questions);
+- [Reported commands](Reported-commands);
 
 **Хештеги:**
 - #English/ReposrtedSpeach

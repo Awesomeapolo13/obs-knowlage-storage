@@ -75,5 +75,8 @@ Event Loop - цикл с набором фаз, который забирает 
 - [Глобальные переменные](node-global-variables);
 - [Историческая справка](node-history);
 - [Event loop](event-loop.md);
+- [Оценка производительности](node-perfomance-estimating);
+- [Модули JS](node-js);
+- [Exec and spawn commands](exec-and-spawn-command);
 
 **Хештеги:** #Programming/JS/NodeJs

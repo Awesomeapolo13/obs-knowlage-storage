@@ -80,6 +80,8 @@ for (let i = 0; i < 55; i++) {
 **Ключи:**
 - [Node.js](node-js);
 - [Event loop](event-loop.md);
-- [Timer](node-timer);
+- [Управление worket threads](node-work-threads-manage.md);
 
-**Хештеги:** #Programming/JS/NodeJs/EventLoop
+**Хештеги:** 
+- #Programming/JS/NodeJs/EventLoop;
+- #Programming/JS/NodeJs/Multithreading;
