@@ -70,6 +70,7 @@ childProcess.on('exit', (code) => {
 - [Node.js](node-js);
 - [Event loop](event-loop.md);
 - [Worket threads](node-worker-threads.md);
+- [Fork](node-fork);
 
 **Хештеги:** 
 - #Programming/JS/NodeJs/EventLoop;

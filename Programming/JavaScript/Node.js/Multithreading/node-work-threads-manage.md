@@ -79,7 +79,8 @@ const main = async () => {
     performance.mark('start');  
     // Используем all, чтобы дождаться выполнения всех наших событий  
     const res = await Promise.all(  
-        [            compute([25, 20, 19, 48, 30, 50]),  
+        [            
+	        compute([25, 20, 19, 48, 30, 50]),  
             compute([25, 20, 19, 48, 30, 50]),  
             compute([25, 20, 19, 48, 30, 50]),  
             compute([25, 20, 19, 48, 30, 50]),  
@@ -101,5 +102,7 @@ const main = async () => {
 - [Event loop](event-loop.md);
 - [Timer](node-timer);
 - [Worket threads](node-worker-threads.md);
+- [Exec and spawn commands](exec-and-spawn-command);
+- [Fork](node-fork);
 
 **Хештеги:** #Programming/JS/NodeJs/EventLoop

@@ -78,5 +78,6 @@ Event Loop - цикл с набором фаз, который забирает 
 - [Оценка производительности](node-perfomance-estimating);
 - [Модули JS](node-js);
 - [Exec and spawn commands](exec-and-spawn-command);
+- [Fork](node-fork);
 
 **Хештеги:** #Programming/JS/NodeJs
