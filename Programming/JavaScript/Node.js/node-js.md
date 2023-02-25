@@ -79,5 +79,6 @@ Event Loop - цикл с набором фаз, который забирает 
 - [Модули JS](node-js);
 - [Exec and spawn commands](exec-and-spawn-command);
 - [Fork](node-fork);
+- [Движок V8](v8-driver);
 
 **Хештеги:** #Programming/JS/NodeJs
