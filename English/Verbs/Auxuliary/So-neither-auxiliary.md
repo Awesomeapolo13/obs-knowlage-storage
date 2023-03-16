@@ -35,6 +35,7 @@ Neither |  am / is / are <br> was / were <br> do / does / did <br> can / could <
 
 **Ключи:**
 - [ENGLISH](ENGLISH);
+- [Subject and Object questions](Subject-object-questions);
 
 **Хештеги:**
-- #English/Verbs
+- #English/Verbs/Auxiliary

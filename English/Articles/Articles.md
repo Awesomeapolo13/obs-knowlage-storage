@@ -16,7 +16,7 @@ Gender stereotypes are simplified beliefs about **men** and **women**. 
 
 1) [A/An](A-an);
 2) [The](The);
-3) 
+3) [Zero article](Zero-article).
 
 
 **Ключи:**

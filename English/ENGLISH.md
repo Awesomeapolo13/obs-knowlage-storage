@@ -12,7 +12,8 @@
 * [Reported speech](Reported-speech);
 * [Infinitive](Infinitive);
 * [Gerund](Gerund);
-* [So, neither and auxiliary](So-neither-auxiliary);
+* [So, neither and auxiliary](So-neither-auxiliary.md);
+* [Subject and Object questions](Subject-object-questions);
 * [Phrasal verbs](Phrasal-verbs);
 * [Expressing movements](Expressing-movements);
 * [Action and non-action verbs](Action-non-action);
