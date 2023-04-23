@@ -7,6 +7,8 @@
 
 **Ключи:**
 - [Subject and Object questions](Subj-obj-questions);
+- [Indirect questions](Indirect-questions);
+- [Question tags](Question-tags);
 
 **Хештеги:**
 - #English/Questions
