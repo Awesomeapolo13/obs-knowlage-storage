@@ -11,7 +11,7 @@ Doctrine поддерживает следующие типы маппинга:
 
 **Ключи:**
 
-- [XML-mapping](XML-mapping);
+- [XML-mapping](XML-mapping.md);
 
 **Хештеги:**
 - #Programming/ORM/Doctrine/Mapping

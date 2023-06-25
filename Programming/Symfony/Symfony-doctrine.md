@@ -95,6 +95,6 @@ DATABASE_URL="postgresql://apps:apps@clothing-db:5432/clothing-db?serverVersion=
 
 **Ключи:**
 - [Symfony framework](Symfony-framework);
-- [Doctrine ORM](Doctrine-ORM);
+- [Doctrine ORM](Doctrine-ORM.md);
 
 **Хештеги:** #Programming/Symfony/Doctrine

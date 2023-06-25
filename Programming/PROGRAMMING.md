@@ -9,7 +9,7 @@
 * [PHP](PHP);
 * [Архитектурные подходы](Arch);
 * [ООП](OOP);
-* [Doctrine](Doctrine-ORM);
+* [Doctrine](Doctrine-ORM.md);
 * [Testing](Testing);
 * 
 

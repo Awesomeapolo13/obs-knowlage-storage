@@ -18,7 +18,7 @@ php bin/console doctrine:migrations:migrate
 
 
 **Ключи:**
-- [Doctrine](Doctrine-ORM);
+- [Doctrine](Doctrine-ORM.md);
 
 
 **Хештеги:** #Programming/ORM/Doctrine/Console
