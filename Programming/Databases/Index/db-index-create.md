@@ -17,3 +17,5 @@ CREATE INDEX IX_Vehicle_Brand ON Vehicle (Brand);
 **Ключи:**
 - [Базы данных](databases);
 - [Индексы](db-index);
+
+**Хештеги:** #Programming/Databases/Index

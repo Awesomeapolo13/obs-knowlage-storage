@@ -18,3 +18,5 @@
 **Ключи:**
 - [Базы данных](databases);
 - [Индексы](db-index);
+
+**Хештеги:** #Programming/Databases/Index

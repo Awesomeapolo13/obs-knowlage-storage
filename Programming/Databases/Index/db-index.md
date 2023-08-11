@@ -26,4 +26,4 @@
 - [Структура и работа индексов](db-index-structure);
 - [Создать индекс](db-index-create);
 
-**Хештеги:** #Programming/Databases
+**Хештеги:** #Programming/Databases/Index
