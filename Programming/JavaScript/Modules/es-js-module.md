@@ -67,6 +67,5 @@ main();
 - [Node.js](node-js);
 - [Comon JS modules](comon-js-module);
 - [Модули JS](js-module);
-- [ES JS modules](es-js-module);
 
 **Хештеги:** #Programming/JS/Module

@@ -8,12 +8,12 @@
 **Ключи:**
 - [Архитектура](Arch);
 - [Entities (Сущность)](Entity);
-- [Value Objects (Объект значение)](Value-object);
+- [Value Objects (Объект значение)](Programming/Architecture/Aproaches/Structures/Value-object.md);
 - [Aggregates (Аггрегаты)](Aggregate);
 - [Specification (Спецификации)](Specification);
 - [Repositories (Репозиторий)](Repository);
 - Factories (Фабрики);
-- [Services (Сервисы или службы)](Service);
+- [Services (Сервисы или службы)](Programming/Architecture/Aproaches/Structures/Service.md);
 - Events (События);
 - [Modules (Модули)](Module).
 
