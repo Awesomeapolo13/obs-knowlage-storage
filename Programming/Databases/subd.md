@@ -4,6 +4,8 @@
 **Ключи:**
 - Обратные:
 	- [Базы данных](databases);
+- Прямые:
+	- [MySQL](MySQL);
 
 **Хештеги:** #Programming/Databases
 

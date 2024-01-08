@@ -5,7 +5,7 @@
 - Обратные:
 	- [Базы данных](databases);
 - Прямые:
-	- [Нормализация данных](data-normalization);
+	- [Нормализация данных](data-normalization.md);
 
 **Хештеги:** #Programming/Databases/Normalization 
 

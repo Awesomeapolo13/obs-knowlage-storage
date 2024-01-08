@@ -6,6 +6,8 @@
 	- [Базы данных](databases);
 - Прямые:
 	- [Индексы](db-index);
+	- [SQL](SQL);
+	- [MySQL](MySQL);
 
 **Хештеги:** #Programming/Databases/SQL
 
