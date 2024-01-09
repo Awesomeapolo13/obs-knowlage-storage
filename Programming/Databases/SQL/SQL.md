@@ -7,6 +7,8 @@
 	- [Реляционные БД](relative);
 - Прямые:
 	- [MySQL](MySQL);
+	- [joins](joins);
+	- [Операторы](sql-operators);
 
 **Хештеги:** #Programming/Databases/SQL
 
