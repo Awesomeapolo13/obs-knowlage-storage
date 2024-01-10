@@ -9,6 +9,7 @@
 	- [MySQL](MySQL);
 	- [joins](joins);
 	- [Операторы](sql-operators);
+	- [Выражения](sql-clause);
 
 **Хештеги:** #Programming/Databases/SQL
 

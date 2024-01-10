@@ -6,6 +6,9 @@
 	- [SQL](SQL);
 - Прямые:
 	- [INNER JOIN](inner-join);
+	- [LEFT JOIN](left-join);
+	- [RIGHT JOIN](right-join);
+	- [CROSS JOIN](cross-join);
 
 **Хештеги:** #Programming/Databases/SQL/Join
 
