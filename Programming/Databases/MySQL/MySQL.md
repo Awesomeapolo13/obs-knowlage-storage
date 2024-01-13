@@ -8,6 +8,9 @@
 	- [СУБД](subd);
 - Прямые:
 	- [SQL](SQL);
+	- [Типы данных](mysql-data-types);
+	- [Управление БД](db-management);
+	- [Работа с таблицами](mysql-table-management);
 
 **Хештеги:** #Programming/Databases/MySQL
 

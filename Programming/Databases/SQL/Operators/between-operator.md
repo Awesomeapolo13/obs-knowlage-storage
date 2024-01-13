@@ -5,6 +5,7 @@
 - Обратные:
 	- [SQL](SQL);
 	- [Реляционные БД](relative);
+	- [Операторы](sql-operators);
 - Прямые:
 
 **Хештеги:** #Programming/Databases/SQL/Operator

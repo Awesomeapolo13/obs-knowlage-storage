@@ -10,6 +10,7 @@
 	- [joins](joins);
 	- [Операторы](sql-operators);
 	- [Выражения](sql-clause);
+	- [Подзапросы](sql-subquery);
 
 **Хештеги:** #Programming/Databases/SQL
 
