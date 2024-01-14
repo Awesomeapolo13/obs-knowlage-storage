@@ -1,6 +1,14 @@
 
 # Реализация CQRS для симфони
 
+**Ключи:**
+- Обратные:
+	-  [CQRS](CQRS);
+
+**Хештеги:** 
+- #Programming/Arch/CQRS;
+- #Programming/Symfony/CQRS
+
 1) Определяем в общей директории интерфейсы для комманд и запросов
 
 В слове приложения, создаем интерфейсы комманды, обработчика комманды и коммандной шины. То же самое делаем для запросов.
@@ -287,6 +295,3 @@ class FindUserByEmailQueryHandlerTest extends WebTestCase
     }  
 }
 ```
-
-
-**Хештеги:** #Programming/Arch/CQRS
