@@ -57,3 +57,12 @@ column_name data_type [GENERATED ALWAYS] AS (expression)
 
 Как итог, если тип сгенерированной колонки хранимый, то можно установить для неё ограничения.
 
+Так же можно добавлять генерируемые столбцы в существующие таблицы:
+
+```sql
+ALTER TABLE products
+ADD COLUMN stockValue DEC(10,2)
+GENERATED ALWAYS AS (buyprice*quantityinstock) STORED;
+```
+
+Обычно конструкция `ALTER TABLE` требует полной перестройки таблицы, поэтому изменение больших таблиц требует много времени. Однако это не относится к виртуальному столбцу.

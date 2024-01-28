@@ -1,6 +1,10 @@
 
 # Стратегическое проектирование (Stratigic design)
 
+**Ключи:**
+- [DDD](DDD);
+
+**Хештеги:** #Programming/Arch/DDD/Strategic
 
 ## Задачи
 
@@ -72,8 +76,4 @@
 
 Здесь завершается стратегическое проектирование.
 
-**Ключи:**
-- [DDD](DDD);
-
-**Хештеги:** #Programming/Arch/DDD/Strategic
 
