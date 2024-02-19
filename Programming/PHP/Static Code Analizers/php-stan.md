@@ -1,6 +1,13 @@
 
 # PHP-stan
 
+**Ключи:**
+- [Статические анализаторы кода](static-code-analizers);
+
+**Хештеги:** #Programming/PHP/CodeAnalizer
+
+## Определение
+
 PHPStan - PHP Static Analysis Tool. Позволяет выявлять ошибки еще до запуска кода интерпретатором. 
 
 
@@ -38,8 +45,3 @@ vendor/bin/phpstan analyse src tests\
 - выбираем интерпретатор;
 - настраиваем маппинг и нажимаем на кнопку валидации;
 - указываем уровень ошибок и включаем отслеживание.
-
-**Ключи:**
-- [Статические анализаторы кода](static-code-analizers);
-
-**Хештеги:** #Programming/PHP/CodeAnalizer
