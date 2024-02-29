@@ -11,6 +11,7 @@
 	- [Нормализация данных](data-normalization);
 	- [Денормализация данных](data-denormalization);
 	- [CAP теорема](cap-theory);
+	- [ACID](ACID);
 	- [Уровни изоляции транзакций](db-isolation);
 
 **Хештеги:** #Programming/Databases

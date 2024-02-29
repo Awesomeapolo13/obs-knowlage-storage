@@ -7,6 +7,7 @@
 - Прямые:
 	- [Индексы](db-index);
 	- [SQL](SQL);
+	- [ACID](ACID);
 	- [MySQL](MySQL);
 
 **Хештеги:** #Programming/Databases/SQL
