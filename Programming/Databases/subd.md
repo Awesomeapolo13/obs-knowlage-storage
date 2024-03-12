@@ -6,6 +6,7 @@
 	- [Базы данных](databases);
 - Прямые:
 	- [MySQL](MySQL);
+	- [Postgre](PostgreSQL);
 
 **Хештеги:** #Programming/Databases
 

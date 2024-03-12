@@ -9,6 +9,7 @@
 	- [SQL](SQL);
 	- [ACID](ACID);
 	- [MySQL](MySQL);
+	- [Postgre](PostgreSQL);
 
 **Хештеги:** #Programming/Databases/SQL
 
