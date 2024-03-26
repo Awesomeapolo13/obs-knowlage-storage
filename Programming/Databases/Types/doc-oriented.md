@@ -7,6 +7,7 @@
 - Прямые:
 	- [Масштабируемость](scalability);
 	- [Модели данных NoSQL БД](nosql-data-models)
+	- [Elasticsearch](elk-search);
 
 **Хештеги:** #Programming/Databases/NoSQL
 

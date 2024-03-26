@@ -1,6 +1,12 @@
 
 # Битовый индекс (BITMAP)
 
+**Ключи:**
+- Обратные:
+	- [Индексы](db-index);
+	- [Типы индексов](db-index-types);
+
+**Хештеги:** #Programming/Databases/Index/Types
 
 Тип индекса BITMAP, доступный в Oracle, PostgreSQL и Teradata, позволяет эффективно индексировать столбцы с низким числом элементов (например, логические столбцы или столбцы с небольшим количеством различных значений). Такие столбцы не хранят каждую запись.
 
@@ -23,10 +29,3 @@ ON TableName (IndexedColumn [, IndexedColumnN]);
 CREATE BITMAP INDEX IX_Vehicle_Color
 ON Vehicle (Color);
 ```
-
-
-**Ключи:**
-- [Индексы](db-index);
-- [Типы индексов](db-index-types);
-
-**Хештеги:** #Programming/Databases/Index/Types
