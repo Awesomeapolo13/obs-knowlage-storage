@@ -7,7 +7,6 @@
 - Прямые:
 
 **Хештеги:** 
-- #Programming/Databases/NoSQL
 - #Programming/Databases/Elasticsearch
 - #ElasticStack/Elasticsearch
 
