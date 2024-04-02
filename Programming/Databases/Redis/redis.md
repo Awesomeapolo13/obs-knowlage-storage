@@ -8,6 +8,9 @@
 - Прямые:
 	- [Архитектура Redis](redis-arch);
 	- [Типы данных Redis](redis-data-types);
+	- [Транзакции Redis](redis-transaction);
+	- [Безопасность Redis](redis-security);
+	- [Персистентность](redis-persistanse);
 
 **Хештеги:** 
 - #Programming/Databases/NoSQL
