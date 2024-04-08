@@ -1,6 +1,19 @@
 
 # Типы индексов
 
+**Ключи:**
+- Обратные:
+	- [Индексы](db-index);
+- Прямые:
+	- [Кластеризованные индексы](db-index-types-clustered);
+	- [Отфильтрованные индексы](db-index-types-filtered);
+	- [Индексы с INCLUDE](db-index-types-include);
+	- [Битовые индексы](db-index-types-bitmap);
+	- [Функциональный индекс (выражение)](db-index-types-function-based);
+	- [Другие типы индексов БД](db-index-types-other);
+
+**Хештеги:** #Programming/Databases/Index/Types 
+
 Существуют различные способы классификации индексов. Ниже приведены наиболее часто используемые:
 
 1) Кластеризованные индексы (таблицы организованные по индексу).
@@ -10,13 +23,3 @@
 5) Функциональные индексы (выражения).
 6) Прочите типы БД индексов
 
-**Ключи:**
-- [Индексы](db-index);
-- [Кластеризованные индексы](db-index-types-clustered);
-- [Отфильтрованные индексы](db-index-types-filtered);
-- [Индексы с INCLUDE](db-index-types-include);
-- [Битовые индексы](db-index-types-bitmap);
-- [Функциональный индекс (выражение)](db-index-types-function-based);
-- [Другие типы индексов БД](db-index-types-other);
-
-**Хештеги:** #Programming/Databases/Index/Types 
