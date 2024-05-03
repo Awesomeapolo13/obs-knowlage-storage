@@ -4,3 +4,4 @@
 **Ключи:**
 - [File template](file-tabs);
 - [Настройка вкладок файлов](file-tabs);
+- [Настройка префикса пространства имен для директории](directory-namespace-prefix);
