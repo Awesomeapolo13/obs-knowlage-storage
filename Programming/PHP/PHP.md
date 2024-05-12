@@ -9,6 +9,8 @@
 	- [Статические переменные](Static-variables);
 	- [Статические анализаторы кода](static-code-analizers);
 	- [Компиляция](PHP-compilation);
+	- [Генараторы](php-generator);
+	- [Файберы](php-fiber);
 
 **Хештеги:** #Programming/PHP
 
