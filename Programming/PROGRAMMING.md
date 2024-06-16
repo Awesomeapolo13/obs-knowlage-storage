@@ -11,7 +11,7 @@
 * [ООП](OOP);
 * [Doctrine](Doctrine-ORM.md);
 * [Testing](Testing);
-* 
+* [Queue broker](queue-broker.md);
 
 
 **Хештеги:** #Programming

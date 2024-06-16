@@ -1,17 +1,36 @@
-docker --help - просмотр комманд докера.
 
-Блок management описывает сущности с которыми можно выполнять эти команды.
-docker management_entity --help - подскажет поманды для определенной сущности (пример - docker container --help)
+# Команды docker
 
-Сущности с которыми работают команды:
+**Ключи:**
+- Обратные:
+	- [Docker](Docker);
+- Прямые:
+	- [Контенеры](Containers-commands);
+	- [Образы](Image-commands);
+	- [Построение образов](Build-Image-commands);
+	- [Копирование](Copy-commands);
+	- [Вольюмы](Volume-commands);
+	- [Сети](Network-commands);
+	- [Registry](Registry-commands);
+	- [Docker compose](Docker-compose-commands);
+	- [SWARM](SWARM-commands).
 
-- [Контенеры](Containers-commands);
-- [Образы](Image-commands);
-- [Посмтроение образов](Build-Image-commands);
-- [Копирование](Copy-commands);
-- [Вольюмы](Volume-commands);
-- [Сети](Network-commands);
-- [Registry](Registry-commands);
-- [Docker compose](Docker-compose-commands);
-- [SWARM](SWARM-commands).
+**Хештеги:**
+- #Docker/Command
+
+## Общие команды
+
+1) Просмотр команд докера:
+```shell
+docker --help
+```
+
+Блок `management` описывает сущности с которыми можно выполнять эти команды.
+
+2) Посмотреть команды для определенной сущности (например, `docker container --help`)
+```shell
+docker management_entity --help 
+```
+
+
 

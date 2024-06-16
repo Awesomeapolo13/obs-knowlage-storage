@@ -1,5 +1,6 @@
 
-Ключи: [Команды](All-docker-commands)
+**Ключи:**
+- [Команды](All-docker-commands)
 
 **Хештеги:**
 - #Docker
