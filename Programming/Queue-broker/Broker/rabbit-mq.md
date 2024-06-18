@@ -6,6 +6,9 @@
 	- [Брокеры очередей](queue-broker);
 - Прямые:
 	- [Доставка сообщений rabbit](rabbit-messaging);
+	- [Обработка сообщений rabbit](rabbit-message-handling);
+	- [RabbitMQ cluster](rabbit-cluster);
+	- [RabbitMQ federation](rabbit-federation);
 
 **Хештеги:**
 - #Queue/Broker ;

@@ -11,6 +11,7 @@
 	- [Компиляция](PHP-compilation);
 	- [Генараторы](php-generator);
 	- [Файберы](php-fiber);
+	- [Стандарты PSR](php-standarts);
 
 **Хештеги:** #Programming/PHP
 
