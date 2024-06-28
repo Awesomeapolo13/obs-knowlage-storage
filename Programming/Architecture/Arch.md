@@ -1,3 +1,10 @@
+**Ключи:**
+- Обратные:
+	- [Программирование](PROGRAMMING);
+- Прямые:
+	- [Репликация](high-load-replication.md);
+
+**Хештеги:** #Programming/Arch
 
 #  Подходы к архитектуре приложений
 
@@ -11,4 +18,3 @@
 - [Command Query Responsibility Segregation (CQRS)](CQRS);
 
 
-**Хештеги:** #Programming/Arch
