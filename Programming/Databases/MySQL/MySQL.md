@@ -11,6 +11,7 @@
 	- [Типы данных](mysql-data-types);
 	- [Управление БД](db-management);
 	- [Работа с таблицами](mysql-table-management);
+	- [Репликация](mysql-replicarion);
 
 **Хештеги:** #Programming/Databases/MySQL
 
