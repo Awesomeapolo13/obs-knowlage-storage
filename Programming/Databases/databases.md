@@ -13,6 +13,7 @@
 	- [CAP теорема](cap-theory);
 	- [ACID](ACID);
 	- [Уровни изоляции транзакций](db-isolation);
+	- [Блокировки](db-lock);
 
 **Хештеги:** #Programming/Databases
 
