@@ -6,8 +6,16 @@
 	- [MySQL](MySQL);
 	- [Работа с таблицами](mysql-table-management)
 - Прямые:
+	- [InnoDB](mysql-innodb-engine);
+	- [MyISAM](mysql-myisam-engine);
+	- [Archive](mysql-archive-engine);
+	- [MERGE](mysql-merge-engine);
+	- [CSV](mysql-csv-engine);
+	- [BLACKHOLE](mysql-blackhole-engine);
+	- [FEDERATED](mysql-federated-engine);
+	- [Memory](mysql-memory-engine);
 
-**Хештеги:** #Programming/Databases/MySQL/Tables
+**Хештеги:** #Programming/Databases/MySQL/Tables/Engine
 
 ## Определение
 
