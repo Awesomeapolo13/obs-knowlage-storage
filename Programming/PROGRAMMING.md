@@ -13,6 +13,7 @@
 * [Testing](Testing);
 * [Queue broker](queue-broker.md);
 * [High load](high-load);
+* [Вопросы для собеседований](job-questions);
 
 
 **Хештеги:** #Programming

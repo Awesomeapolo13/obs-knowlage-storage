@@ -1,6 +1,12 @@
 
 # File template
 
+**Ключи:**
+- [PHPStorm](php-storm);
+
+**Хештеги:**
+- #IDE/Phpstorm
+
 В IDE PhpStrom есть возможность переопределить шаблоны создаваемых файлов для классов, скриптов, геттеров и т.д.
 
 1) Шаблоны новых файлов - File -> Settings -> Editor -> File and Code Templates, вкладка File.
