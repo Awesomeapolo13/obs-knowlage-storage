@@ -7,7 +7,7 @@
 	- [Работа с таблицами](mysql-table-management)
 - Прямые:
 	- [Механизмы хранения](mysql-storage-engine);
-	- DELETE;
+	- [DELETE](mysql-delete);
 
 **Хештеги:** #Programming/Databases/MySQL/Tables
 

@@ -71,3 +71,63 @@ SET GLOBAL max_allowed_packet=size;
 
 Так же при использовании операции `SELECT LAST_INSERT_ID();` после множественной вставки строк, она вернет id первой вставленной строки из всех.
 
+### Вставка DATETIME
+
+Тип данных `DATETIME` испольуется для хранения даты и времени в одной колонке. Перед вставкой данных в колонку типа `DATETIME` нам необходимо привести её к формату `YYYY-MM-DD HH:MM:SS`.
+
+Пример:
+
+```sql
+INSERT INTO events(event_name, event_time)
+VALUES('MySQL tutorial livestream', '2023-10-28 19:30:35');
+```
+
+Если необходимо вставить текущее время и дату, можно использовать функцию `NOW()`:
+
+```sql
+INSERT INTO events(event_name, event_time)
+VALUES('MySQL Workshop', NOW());
+```
+
+Если же необходимо выполнить вставку строки как `DATETIME`, используем функцию `STR_TO_DATE()` для конвертации в требуемый формат:
+
+```sql
+INSERT INTO events (event_name, event_time)
+VALUES ('MySQL Party', STR_TO_DATE('10/28/2023 20:00:00', '%m/%d/%Y %H:%i:%s'));
+```
+
+
+### Вставка DATE
+
+Тип данных `DATE` испольуется для хранения даты. Перед вставкой данных в колонку типа `DATE` нам необходимо привести её к формату `YYYY-MM-DD`.
+
+Пример:
+
+```sql
+INSERT INTO events(event_name, event_date)
+VALUES('MySQL Conference','2023-10-29');
+```
+
+При попытке вставки невалидной даты, например, при числе 39, будет сгенерирована ошибка.
+
+Если необходимо вставить текущее время и дату, можно использовать функцию `CURRENT_DATE`:
+
+```sql
+INSERT INTO events(event_name, event_date)
+VALUES('MySQL Replication Workshop', CURRENT_DATE);
+```
+
+При необходимости вставлять дату в формате UTC, использем `UTC_DATE()`:
+
+```sql
+INSERT INTO events(event_name, event_date)
+VALUES('MySQL Day in USA', UTC_DATE());
+```
+
+Если же необходимо выполнить вставку строки как `DATE`, используем функцию `STR_TO_DATE()` для конвертации в требуемый формат:
+
+```sql
+INSERT INTO events (event_name, event_date)
+VALUES ('MySQL Innovate', STR_TO_DATE('10/29/2023', '%m/%d/%Y'));
+```
+
