@@ -12,6 +12,8 @@
 	- [Управление БД](db-management);
 	- [Работа с таблицами](mysql-table-management);
 	- [Репликация](mysql-replicarion);
+	- [Common Table Expression](mysql-cte);
+	- [Блокировка таблиц](mysql-table-lock);
 
 **Хештеги:** #Programming/Databases/MySQL
 

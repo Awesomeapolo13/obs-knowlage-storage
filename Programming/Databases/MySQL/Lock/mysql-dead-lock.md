@@ -4,7 +4,8 @@
 **Ключи:**
 - Обратные:
 	- [MySQL](MySQL);
-	- [Deadlock](dead-lock)
+	- [Deadlock](dead-lock);
+	- [Блокировки таблиц](mysql-table-lock)
 
 **Хештеги:** 
 - #Programming/Databases/MySQL/Lock
