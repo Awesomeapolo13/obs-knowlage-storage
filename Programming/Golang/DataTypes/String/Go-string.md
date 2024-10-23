@@ -1,6 +1,19 @@
 
 # Строки
 
+**Ключи:**
+- Обратные:
+	- [Сведения о языке Go](GO);
+- Прямые:
+	- [Строки и байты](Go-strings-bytes);
+	- [Руны](Go-rune);
+	- [Стандартный пакет strings](Go-strings-pack);
+	- [Форматирование строк](Go-string-formatting);
+
+**Хештеги:** #Programming/Go/DataTypes/String
+
+## Общие сведения
+
 Строки в Go объявляются с типом `string`:
 
 ```go
@@ -50,8 +63,3 @@ len("go") // 2
 len("го") // 4
 ```
 
-**Ключи:**
-- [Сведения о языке Go](GO);
-- [Строки и байты](Go-strings-bytes);
-
-**Хештеги:** #Programming/Go/DataTypes/String

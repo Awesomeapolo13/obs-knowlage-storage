@@ -1,6 +1,15 @@
 
 # Копирование слайсов
 
+**Ключи:**
+- Обратные:
+	- [Коллекции](Go-collection-types);
+	- [Слайсы](Go-slice-type);
+- Прямые:
+	- [Сортировка слайсов](Go-slice-sort);
+
+**Хештеги:** #Programming/Go/DataTypes/Collection/Slice
+
 В языке есть встроенная функция `func copy(dst, src []Type) int`, которая копирует слайс `src` в слайс `dst` и возвращает кол-во скопированных элементов:
 
 ```go
@@ -37,10 +46,3 @@ copy(numsCp, nums)
 fmt.Println(numsCp) // []
 ```
 
-**Ключи:**
-- [Сведения о языке Go](GO);
-- [Коллекции](Go-collection-types);
-- [Слайсы как тип данных](Go-slice-type);
-- [Сортировка слайсов](Go-slice-sort);
-
-**Хештеги:** #Programming/Go/DataTypes/Collection/Slice

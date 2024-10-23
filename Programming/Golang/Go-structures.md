@@ -1,6 +1,12 @@
 
 # Структуры
 
+**Ключи:**
+- Обратные:
+	- [Сведения о языке Go](GO);
+
+**Хештеги:** #Programming/Go
+
 В Go нет классов и привычной реализации ООП. Вместо классов в языке используются структуры — наборы полей, имеющих название и тип данных. Объявление структуры имеет следующий вид:
 
 ```go
@@ -117,8 +123,3 @@ Key: 'User.ID' Error:Field validation for 'ID' failed on the 'required' tag
 Key: 'User.Email' Error:Field validation for 'Email' failed on the 'required' tag
 Key: 'User.FirstName' Error:Field validation for 'FirstName' failed on the 'required' tag
 ```
-
-**Ключи:**
-- [Сведения о языке Go](GO);
-
-**Хештеги:** #Programming/Go
