@@ -6,17 +6,19 @@
 	- [Ссылки на темы по программированию](PROGRAMMING);
 - Прямые: 
 	- [Основные правила написания программы](Go-programm);
-	- [Про ошибки](Go-errors);
-	- [Функции в Golang](Go-functions);
+	- [Про ошибки](Programming/Golang/Go-errors.md);
+	- [Функции в Golang](Go-functions.md);
 	- [Математика и числа в Go](Go-math-numbers.md);
 	- [Логический  тип](Go-logic-type.md);
 	- [Строки](Go-string.md);
 	- [Тиы коллекций](Go-collection-types);
 	- [Условные констуркции](Go-conditions);
-	- [Структуры](Go-structures);
+	- [Структуры](Go-structures.md);
 	- [Константы](Go-const);
 	- [Циклы](Go-cycles);
 	- [Наследование](Go-inheritance);
+	- [Пользовательские типы и методы](Go-alias);
+	- [Конкурентность](Go-concurrency);
 
 **Хештеги:** #Programming/Go
 

@@ -1,6 +1,14 @@
 
 # Обход мапы
 
+**Ключи:**
+- Обратные:
+	- [Сведения о языке Go](GO);
+	- [Коллекции](Go-collection-types);
+	- [Маппа как тип](Go-map-type).
+
+**Хештеги:** #Programming/Go/DataTypes/Collection/Map
+
 Как и слайс, мапу можно обойти с помощью конструкции `for range`:
 
 ```go
@@ -50,10 +58,3 @@ for num := range numExistence {
 4
 5
 ```
-
-**Ключи:**
-- [Сведения о языке Go](GO);
-- [Коллекции](Go-collection-types);
-- [Маппа как тип](Go-map-type).
-
-**Хештеги:** #Programming/Go/DataTypes/Collection/Map

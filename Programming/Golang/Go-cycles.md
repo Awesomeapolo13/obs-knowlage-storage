@@ -81,7 +81,7 @@ for i, name := range names {
 
 Вывод:
 
-```go
+```shell
 Hello John at index 0
 Hello Harold at index 1
 Hello Vince at index 2
