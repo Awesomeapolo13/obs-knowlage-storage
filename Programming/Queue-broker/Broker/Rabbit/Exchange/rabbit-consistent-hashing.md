@@ -2,12 +2,12 @@
 
 **Связи:**
 - Обратные
-	- [RabbitMQ](rabbit-mq);
+	- [RabbitMQ](rabbit-mq.md);
 - Прямые:
 
 **Хештеги:**
 - #Queue/Broker ;
-- #Rabbit ;
+- #Rabbit/Exchange;
 
 ## Определение
 

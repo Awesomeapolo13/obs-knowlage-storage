@@ -2,7 +2,7 @@
 
 **Связи:**
 - Обратные
-	- [RabbitMQ](rabbit-mq);
+	- [RabbitMQ](rabbit-mq.md);
 - Прямые:
 
 **Хештеги:**

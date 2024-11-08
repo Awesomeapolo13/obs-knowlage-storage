@@ -2,12 +2,15 @@
 
 **Связи:**
 - Обратные
-	- [RabbitMQ](rabbit-mq);
+	- [RabbitMQ](rabbit-mq.md);
 - Прямые:
+	- [Подтверждения публикации](rabbit-publisher-acknowledgement);
+	- [Восстановление издателей после сетевого сбоя](rabbit-publisher-recovery);
+	- [Обработка ошибок](rabbit-publisher-exception-handling);
 
 **Хештеги:**
 - #Queue/Broker ;
-- #Rabbit 
+- #Rabbit/Publisher 
 
 ## Без гарантии доставки
 
