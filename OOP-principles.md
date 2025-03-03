@@ -1,2 +1,0 @@
-
-**Хештеги:** #Programming/OOP/Principles
