@@ -13,6 +13,7 @@
 	- [Сообщения](rabbit-message);
 	- [RabbitMQ cluster](rabbit-cluster.md);
 	- [RabbitMQ federation](rabbit-federation.md);
+	- [Проблемы](rabbit-problems);
 
 **Хештеги:**
 - #Queue/Broker ;
@@ -95,6 +96,11 @@
 
 Каждую очередь слушает одно кокретное приложение, но оно может обрабатывать очередь в несколько потоков. По умолчанию баланчировка будет round robin.
 
+## Паттерны
 
+1) Шина команд
+2) Шина событий
+3) Request/Reply
+4) Календярь задач
 
 
