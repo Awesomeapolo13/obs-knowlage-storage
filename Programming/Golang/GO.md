@@ -9,9 +9,9 @@
 	- [Про ошибки](Programming/Golang/Go-errors.md);
 	- [Функции в Golang](Go-functions.md);
 	- [Математика и числа в Go](Go-math-numbers.md);
-	- [Логический  тип](Go-logic-type.md);
+	- [Логический тип](Go-logic-type.md);
 	- [Строки](Go-string.md);
-	- [Тиы коллекций](Go-collection-types);
+	- [Типы коллекций](Go-collection-types);
 	- [Условные констуркции](Go-conditions);
 	- [Структуры](Go-structures.md);
 	- [Константы](Go-const);
@@ -43,3 +43,37 @@ Go – компилируемый язык, при этом компилятор
 - https://github.com/golang/go/wiki - вики голанга
 - https://go.dev/doc/code - как писать код на го;
 - https://go.dev/doc/effective_go - эффективный голанг.
+
+## Команды
+
+1) Создать новый модуль
+
+```shell
+go mod init go/practice
+```
+
+2) Собрать бинарник
+
+```shell
+go build
+```
+
+3) Установить внешний пакет
+
+```shell
+go get package_url
+```
+
+4) Установить внешние зависимости проекта (внешние пакеты)
+
+```shell
+go get
+```
+
+5) Почистить модуль от неиспользуемых зависимостей (+ обновить go.mod до актуального состояния)
+
+```shell
+go mod tidy
+```
+
+
