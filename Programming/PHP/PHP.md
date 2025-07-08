@@ -13,7 +13,7 @@
 	- [Генараторы](php-generator);
 	- [Файберы](php-fiber);
 	- [Стандарты PSR](php-standarts);
-	- [PHP FPM](php-fpm);
+	- [PHP FPM](php-fpm.md);
 
 **Хештеги:** #Programming/PHP
 

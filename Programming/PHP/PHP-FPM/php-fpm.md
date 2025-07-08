@@ -5,6 +5,15 @@
 - Обратные
 	- [PHP](PHP);
 - Прямые:
+	- [Архитектура PHP-FPM](php-fpm-arch);
+	- [Детальный процесс запуска](php-fpm-process);
+	- [Процессы и пулы](php-fpm-process-pools);
+	- [Жизненный цикл worker-процесса](php-fpm-worker-proccess-lifecycle);
+	- [Механизмы управления процессами](php-fpm-process-management);
+	- [Обработка запросов от веб сервера](php-fpm-web-server-handling);
+	- [Управление памятью и ресурсами](php-fpm-memory-resources-management);
+	- [Конфигурация и важные параметры](php-fpm-configs);
+	- [Мониторинг и отладка](php-fpm-monitoring);
 	
 
 **Хештеги:** #Programming/PHP

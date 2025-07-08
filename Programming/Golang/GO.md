@@ -12,6 +12,8 @@
 	- [Логический тип](Go-logic-type.md);
 	- [Строки](Go-string.md);
 	- [Типы коллекций](Go-collection-types);
+	- [Generic type](Go-generic)
+	- [Any type](Go-any)
 	- [Условные констуркции](Go-conditions);
 	- [Структуры](Go-structures.md);
 	- [Константы](Go-const);
@@ -19,6 +21,8 @@
 	- [Наследование](Go-inheritance);
 	- [Пользовательские типы и методы](Go-alias);
 	- [Конкурентность](Go-concurrency);
+	- [HTTP](go-http);
+	- [Тест](go-test)
 
 **Хештеги:** #Programming/Go
 
