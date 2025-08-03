@@ -1,6 +1,10 @@
 
 # Алгоритм быстрой сортировки #
 
+**Хештеги**:
+* #Programming/Algorithms/Sort;
+* #Programming/Algorithms/Recursion 
+
 ## Зачем нужен ##
 
 Для быстрой сортировки списка.
@@ -15,73 +19,68 @@
 
 ## Алгоритм ##
 
-1) Берем первый элемент массива (нулевой);
-2) Все элементы массива, что меньше его, помещаем левее;
-3) Повторяем эту процедуру для обеих половин массива (они поделены элементом из п.1).
+1) **Выбор опорного элемента** — можно брать первый, последний, средний элемент или случайный. Выбор влияет на производительность в худших случаях.
+2) **Разбиение (partition)** — перестановка элементов массива так, чтобы:
+    - Все элементы меньше опорного оказались слева от него
+    - Все элементы больше опорного — справа
+    - Опорный элемент встал на свое окончательное место
+3) **Рекурсивная сортировка** — применение того же алгоритма к левой части (элементы меньше опорного) и правой части (элементы больше опорного)
+4) **Базовый случай** — когда в части массива остается 0 или 1 элемент, она уже отсортирована
 
 ## Реализация ##
 
-Реализацяи на JS:
+```go
+package quickSort
 
-```javascript
-
-/**  
- * Функция сортировки массива по частям, для использования в рамках быстрой сортировки * @param sortedArr  
- * @param from  
- * @param to  
- * @returns {(*)[]}  
- */  
-function partition(sortedArr, from, to) {  
-    const first = sortedArr[from];  
-    for (let i = from; i < to; i++) {  
-        if (first > sortedArr[i]) {  
-            let storage = sortedArr[i];  
-            sortedArr[i] = first;  
-            sortedArr[i - 1] = storage;  
-        }  
-    }  
-  
-    return [  
-        sortedArr.indexOf(first), // Новый индекс для сортировки  
-        sortedArr  
-    ];  
+// QuickSortIntSliceASC сортирует слайс целых чисел по возрастанию
+func QuickSortIntSliceASC(arr []int, firstIdx, lastIdx int) []int {
+    // Базовый случай: если в части массива 0 или 1 элемент, она уже отсортирована
+    if firstIdx >= lastIdx {
+        return arr
+    }
+    
+    // Выполняем разбиение и получаем позицию опорного элемента
+    pivotIdx := partition(arr, firstIdx, lastIdx)
+    
+    // Рекурсивно сортируем левую часть (элементы меньше опорного)
+    QuickSortIntSliceASC(arr, firstIdx, pivotIdx-1)
+    
+    // Рекурсивно сортируем правую часть (элементы больше опорного)
+    QuickSortIntSliceASC(arr, pivotIdx+1, lastIdx)
+    
+    return arr
 }
-  
-/**  
- * Реализация быстрой сортировки * @param sortedArr - сортируемый массив  
- * @param from  
- * @param to  
- * @returns {*}  
- */  
-function quickSort(  
-    sortedArr,  
-    from = 0,  
-    to = sortedArr.length  
-) {  
-    // проверка типов входных данных  
-    if (  
-        typeof (sortedArr) !== "object" ||  
-        typeof (from) !== "number" ||  
-        typeof (to) !== "number"  
-    ) {  
-        throw new Error('Не верный формат аргументов в функции binarySearch!');  
-    }  
-  
-    let pivot = 0;  
-  
-    if (from < to) {  
-        // метод, который выбирает элемент и все элементы, что меньше него перекидывает влево  
-        // и возвращает новый индекс центрального элемента        
-        [pivot, sortedArr] = partition(sortedArr, from, to);  
-        // вызываем метод quickSort для правой и левой частей массива  
-        quickSort(sortedArr, from, pivot - 1);  
-        quickSort(sortedArr, pivot + 1, to);  
-    }  
-  
-    return sortedArr;  
+
+// partition выполняет разбиение массива относительно опорного элемента
+func partition(arr []int, firstIdx, lastIdx int) int {
+    // Выбираем последний элемент как опорный
+    pivot := arr[lastIdx]
+    
+    // Индекс для размещения элементов меньше опорного
+    i := firstIdx - 1
+    
+    // Проходим по всем элементам кроме опорного
+    for j := firstIdx; j < lastIdx; j++ {
+        // Если текущий элемент меньше или равен опорному
+        if arr[j] <= pivot {
+            i++ // увеличиваем индекс для меньших элементов
+            // Меняем местами элементы
+            arr[i], arr[j] = arr[j], arr[i]
+        }
+    }
+    
+    // Помещаем опорный элемент на правильное место
+    arr[i+1], arr[lastIdx] = arr[lastIdx], arr[i+1]
+    
+    // Возвращаем позицию опорного элемента
+    return i + 1
+}
+
+// Альтернативная версия с более простым интерфейсом
+func QuickSort(arr []int) []int {
+    if len(arr) <= 1 {
+        return arr
+    }
+    return QuickSortIntSliceASC(arr, 0, len(arr)-1)
 }
 ```
-
-**Хештеги**:
-* #Programming/Algorithms/Sort;
-* #Programming/Algorithms/Recursion 

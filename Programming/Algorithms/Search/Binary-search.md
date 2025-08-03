@@ -1,6 +1,15 @@
 
 # Алгоритм бинарного поиска #
 
+**Связи**:
+- Прямые
+- Обратные:
+	- [Алгоритмы поиска](Search)
+
+**Хештеги**:
+* #Programming/Algorithms/Search;
+* #Programming/Algorithms/Recursion 
+
 ## Зачем нужен ##
 
 При поиске элемента массива простым перебором сложность $O(n)$.
@@ -74,6 +83,3 @@ function binarySearch(
 }
 ```
 
-**Хештеги**:
-* #Programming/Algorithms/Search;
-* #Programming/Algorithms/Recursion 

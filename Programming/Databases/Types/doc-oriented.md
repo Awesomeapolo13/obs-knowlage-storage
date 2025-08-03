@@ -9,6 +9,7 @@
 	- [Модели данных NoSQL БД](nosql-data-models)
 	- [Elasticsearch](elk-search);
 	- [Redis](redis);
+	- [Clickhouse](clickhouse)
 
 **Хештеги:** #Programming/Databases/NoSQL
 
