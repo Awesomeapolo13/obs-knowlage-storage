@@ -1,6 +1,12 @@
 
 # Suffixes
 
+**Ключи:**
+- [ENGLISH](ENGLISH);
+
+**Хештеги:**
+- #English/Word-formation
+
 ## Noun suffixes
 
 Suffix | Formation from -> to | Examples
@@ -42,8 +48,3 @@ Suffix | Formation from -> to | Examples
 ----------|------|------
 -ly | adjective/noun → adverb | almly , quickly
 
-**Ключи:**
-- [ENGLISH](ENGLISH);
-
-**Хештеги:**
-- #English/Verbs
