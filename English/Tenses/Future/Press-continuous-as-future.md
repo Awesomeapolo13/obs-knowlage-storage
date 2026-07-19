@@ -1,5 +1,5 @@
 
-# Present Continous as Future
+# Present Continuous as Future
 
 ## Using
 

@@ -1,4 +1,20 @@
 
+**Ключи:**
+- Обратные:
+	-  [ENGLISH](ENGLISH);
+- Прямые:
+	- [Future Simple](Future-simple);
+	- [Future Perfect](Future-perfect);
+	- [Future Continuous](Future-continuous);
+	- [Future time clauses](Future-time-clauses);
+	- [Other future forms](Other-future-forms);
+	- [Present simple as future](Present-simple-as-future);
+	- [Present continuous as future](Press-continuous-as-future);
+	- [To-be-going-to](To-be-going-to);
+
+**Хештеги:**
+- #English/Tense/Future
+
 # Future tense
 
 ## Future Simple
@@ -29,15 +45,8 @@ _She'll have gotten a bionic eye by tomorrow morning._
 ## Future Perfect Continous
 
 **Future Perfect Continuous** is used to describe an **action continuing for some time up until a point** in the **future**.
-(F)uture Perfect Continuous используется для описания действия, продолжающегося в течение некоторого времени до определенного момента в будущем.)
+(Future Perfect Continuous используется для описания действия, продолжающегося в течение некоторого времени до определенного момента в будущем.)
 
 **will + have + been + Ving**
 
 _They will have been testing the new method for 2 hours by the time I come._
-
-**Ключи:**
-- [ENGLISH](ENGLISH);
-- [Future Simple](Future-simple);
-
-**Хештеги:**
-- #English/Tense/Future

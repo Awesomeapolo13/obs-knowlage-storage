@@ -1,10 +1,14 @@
 
-# <%+ tp.file.creation_date("MMMM YYYY")%>
+# <% moment(tp.file.title, "YYYY-MM").format("MMMM YYYY")%>
 
 ---
-###### Месяц <%+ tp.file.creation_date("MM/YYYY")%>
+###### Месяц <% moment(tp.file.title, "YYYY-MM").format("MM/YYYY")%>
 
 ---
+
+Примечания:
+- В конце месяца пройдись по всем заметкам на неделю. На базе инсайтов и выводов по неделям сформируй главные события и итоги. Заметики по дням недели можно удалить в конце месяца
+- Для создания ревью месяца зайти в командую строку `Ctrl+P`, набрать `Periodic Notes: Open Monthly Note`
 
 ## 🎯 Цели на месяц
 
@@ -30,9 +34,6 @@
 ## 💼 Работа и карьера
 
 ### Достижения
-- 
-
-### Проекты
 - 
 
 ### Новые навыки
@@ -102,7 +103,7 @@
 ---
 ### 📎 Недели месяца
 
-- [[<%+ tp.file.creation_date("YYYY-MM-DD")%>-<%+ tp.date.now("DD", 6)%>]] - Неделя 1
-- [[<%+ tp.date.now("YYYY-MM-DD", 7)%>-<%+ tp.date.now("DD", 13)%>]] - Неделя 2
-- [[<%+ tp.date.now("YYYY-MM-DD", 14)%>-<%+ tp.date.now("DD", 20)%>]] - Неделя 3
-- [[<%+ tp.date.now("YYYY-MM-DD", 21)%>-<%+ tp.date.now("DD", 27)%>]] - Неделя 4
+- [[<% tp.file.creation_date("YYYY-MM-DD")%>-<% tp.date.now("DD", 6)%>]] - Неделя 1
+- [[<% tp.date.now("YYYY-MM-DD", 7)%>-<% tp.date.now("DD", 13)%>]] - Неделя 2
+- [[<% tp.date.now("YYYY-MM-DD", 14)%>-<% tp.date.now("DD", 20)%>]] - Неделя 3
+- [[<% tp.date.now("YYYY-MM-DD", 21)%>-<% tp.date.now("DD", 27)%>]] - Неделя 4

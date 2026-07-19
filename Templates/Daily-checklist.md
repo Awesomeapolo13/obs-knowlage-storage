@@ -26,9 +26,4 @@
 - [ ] First job;
 - [ ] Second job;
 
-#### Перенести на другие даты
-
-- [ ] First job;
-- [ ] Second job;
-
 
