@@ -26,5 +26,6 @@
 * [Defining and non-defining relative clauses](Defining-non-defining-relative-clauses);
 * [Causitives: have and get](causitives-have-get)
 * [Present perfect continuous](Present-perfect-continuous);
+* [IT commit rules](commit-writing-rules);
 
 Хештеги: #English
